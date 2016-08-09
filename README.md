@@ -9,4 +9,4 @@
 - MySQL 保存数据筛选结果。
 
 ####计算节点：
-![](http://bangzhushuo.oss-cn-hangzhou.aliyuncs.com/yingjun%2Fbolt.png)
+![](http://i.imgur.com/7cWrlwy.png)
