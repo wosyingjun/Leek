@@ -1,0 +1,20 @@
+########### These MUST be filled in for a storm configuration
+#zookeeper默认端口号都为2181
+ storm.zookeeper.servers:
+     - "192.168.xx.100"
+     - "192.168.xx.101"
+     - "192.168.xx.102"
+
+ nimbus.host: "192.168.xx.100"
+ storm.zookeeper.root: "/jstorm"
+
+ storm.local.dir: "%JSTORM_HOME%/data"
+
+ supervisor.slots.ports:
+    - 6800
+    - 6801
+    - 6802
+
+
+
+
