@@ -10,7 +10,7 @@
 
 ####架构图：
 ![](http://i.imgur.com/Cmruowc.png)
-####Storm计算节点：
+####Storm拓扑：
 ![](http://i.imgur.com/7cWrlwy.png)
 ####Esper计算模型：
 ![](http://i.imgur.com/pVzaWf9.jpg)
