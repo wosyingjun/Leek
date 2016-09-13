@@ -1,0 +1,7 @@
+#/bin/bash
+for((i=0;i<100000;i++));
+do
+    echo "{\"stockCode\":\"603618\", \"newPrice\":15.2, \"buyPrice1\":15.2, \"buyCount1\":100, \"buyPrice2\":0.0, \"buyCount2\":0, \"buyPrice3\":0.0, \"buyCount3\":0, \"buyPrice4\":0.0, \"buyCount4\":0, \"buyPrice5\":0.0, \"buyCount5\":0, \"sellPrice1\":15.2, \"sellCount1\":6526, \"sellPrice2\":0.0, \"sellCount2\":385, \"sellPrice3\":0.0, \"sellCount3\":0, \"sellPrice4\":0.0, \"sellCount4\":0, \"sellPrice5\":0.0, \"sellCount5\":0, \"current\":$i}" >> /usr/local/stock/stock.log;
+    echo "{\"stockCode\":\"600570\", \"newPrice\":55.67, \"buyPrice1\":55.67, \"buyCount1\":$i, \"buyPrice2\":55.66, \"buyCount2\":23, \"buyPrice3\":55.65, \"buyCount3\":30, \"buyPrice4\":55.60, \"buyCount4\":4, \"buyPrice5\":55.55, \"buyCount5\":10, \"sellPrice1\":55.72, \"sellCount1\":6526, \"sellPrice2\":55.74, \"sellCount2\":185, \"sellPrice3\":55.76, \"sellCount3\":10, \"sellPrice4\":55.78, \"sellCount4\":10, \"sellPrice5\":55.8, \"sellCount5\":165, \"current\":100}" >> /usr/local/stock/stock.log;
+    echo "{\"stockCode\":\"600570\", \"newPrice\":55.67, \"buyPrice1\":55.67, \"buyCount1\":100, \"buyPrice2\":55.66, \"buyCount2\":23, \"buyPrice3\":55.65, \"buyCount3\":30, \"buyPrice4\":55.60, \"buyCount4\":4, \"buyPrice5\":55.55, \"buyCount5\":10, \"sellPrice1\":55.72, \"sellCount1\":6526, \"sellPrice2\":55.74, \"sellCount2\":185, \"sellPrice3\":55.76, \"sellCount3\":10, \"sellPrice4\":55.78, \"sellCount4\":10, \"sellPrice5\":55.8, \"sellCount5\":165, \"current\":$i}" >> /usr/local/stock/stock.log;
+done
